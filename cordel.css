@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 300px;
+    margin: 100px 0px 100px 30px;
+}
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;  /* não funcionou */
+}
+h2 {
+    color: aliceblue;
+}
+h2:hover a {
+    text-decoration: underline;
+}
+h2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+header {
+    height: 180px;
+    background: black;
+    text-align: center;
+    padding-top: 50px;  
+}
+p {
+    font-family:cursive, Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 25px;
+    line-height: 50px ;
+    font-weight: 900;
+    }
+#parte2 {
+    display: inline-block;
+    position: relative;
+    background-image: url(joaninha-768x432.jpg.webp);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#parte2 p {
+    position: absolute;
+    top: 50px;
+    text-shadow: 1px 2px 10px black;  
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.453);
+    color: aliceblue;
+    width: 300px;
+   }
+#parte4 {
+    background-image: url(pagina.jpg);
+    color: aliceblue;
+    background-attachment: fixed;
+    position: relative;
+    height: 500px;
+}   
+#parte4 p {
+    background-color: rgba(0, 0, 0, 0.487);
+    position: absolute;
+    top: 35px;
+    width: 300px;
+}
+footer a {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none; 
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+}
+#ewerton:hover {
+    text-decoration: underline; 
+}
+#cursoemvideo:hover {
+    text-decoration: underline; 
+}
